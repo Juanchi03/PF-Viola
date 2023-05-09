@@ -1,0 +1,100 @@
+@charset "utf-8";
+/* CSS Document */
+
+/*organizacion*/
+*{
+  margin: 0;
+  padding: 0;
+}
+
+/*estilos de textos*/
+
+
+.style1{
+	font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, "sans-serif";
+	color: antiquewhite;
+	text-align: left;
+	font-size: 14px;
+	font-weight: bold;
+	
+}
+
+.style2{
+	font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, "sans-serif";
+	color: antiquewhite;
+	font-size: 14px;
+	font-weight: bold;
+	display: inline-block;
+  	text-align: left;
+	
+}
+.style3{
+	font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+	font-weight: bold;
+	text-align: center;
+	color: darkslategrey;
+}
+
+.style4{
+	font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+	font-weight: bold;
+	text-align: center;
+	color: black;
+}
+
+.style5{
+	font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+	font-weight: bold;
+	text-align: center;
+	color: black;
+}
+
+/*css del navbar*/
+.navbar {
+  width: 100%;
+  background-color: DarkSalmon;
+  overflow: auto;
+}
+
+/* Navbar links */
+.navbar  li {
+	float: left;
+	text-align: center;
+	padding: 12px;
+	color: white;
+	text-decoration: none;
+	font-size: 17px;
+	list-style: none;
+	
+}
+
+/* hover */
+.navbar li:hover {
+  background-color: #343ABB;
+}
+
+/* Current/active navbar link */
+.active li:active {
+  background-color: #A343ABB;
+}
+
+/* responsive del navbar para telefono */
+@media screen and (max-width: 500px) {
+  .navbar a {
+    float: none;
+    display: block;
+  }
+}
+
+
+/*css del footer*/
+
+footer {
+  padding: 3px;
+  background-color: DarkSalmon;
+}
+
+div.container {
+  text-align: center;
+}
+
