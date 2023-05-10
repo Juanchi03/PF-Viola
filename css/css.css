@@ -49,34 +49,18 @@
 	color: black;
 }
 
+
 /*css del navbar*/
-.navbar {
-  width: 100%;
-  background-color: DarkSalmon;
-  overflow: auto;
+.navbar-nav .nav-link{
+	color: antiquewhite;
+	font-weight: bold;
 }
 
-/* Navbar links */
-.navbar  li {
-	float: left;
-	text-align: center;
-	padding: 12px;
-	color: white;
-	text-decoration: none;
-	font-size: 17px;
-	list-style: none;
-	
+.navbar .nav-link:hover{
+	text-decoration: underline;
+	text-decoration-color: antiquewhite;
 }
 
-/* hover */
-.navbar li:hover {
-  background-color: #343ABB;
-}
-
-/* Current/active navbar link */
-.active li:active {
-  background-color: #A343ABB;
-}
 
 /* responsive del navbar para telefono */
 @media screen and (max-width: 500px) {
@@ -87,14 +71,36 @@
 }
 
 
-/*css del footer*/
 
-footer {
-  padding: 3px;
-  background-color: DarkSalmon;
+/*css de los dervicios*/
+.servicios .box-servicios{
+	display: flex;
+	justify-content: space-around;
+	flex-wrap: wrap;
+	flex-direction: row;
+	
 }
 
-div.container {
-  text-align: center;
+.servicios{
+	width: 300px;
+	height: auto;
+	border: 3px black solid;
+	margin: 30px;
+	
+}
+	
+.servicios .box-servicios img{
+	width: 200px;
+}
+/*css del footer*/
+
+.footers{
+	display: grid;
+	grid-template-columns: 25% 25% 25% 25%;
+	grid-auto-rows: auto;
+	justify-content: center;
+	background-color: darksalmon;
+	
+		
 }
 
