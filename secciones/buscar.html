@@ -18,9 +18,8 @@
 						<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
 							<span class="navbar-toggler-icon"></span>
 			 		 	</button>
-							<div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-				 		 <div class="collapse navbar-collapse" id="navbarNav">
-							<ul class="navbar-nav">
+							<div class="collapse navbar-collapse" id="navbarNav">
+							<ul class="navbarNav navbar-nav">
 							  <li class="nav-item active">
 								<a class="nav-link" href="../index.html">Inicio <span class="sr-only">(current)</span></a>
 							  </li>
@@ -31,7 +30,7 @@
 								<a class="nav-link" href="servicios.html">Servicios</a>
 							  </li>
 							  <li class="nav-item">
-								<a class="nav-link" href="buscar.html">Buscar</a>
+								<a class="nav-link" href="buscar.html">Intranet</a>
 							  </li>
 							  <li class="nav-item">
 								<a class="nav-link" href="sobre_nosotros.html">Sobre Nosotros</a>
@@ -45,33 +44,48 @@
 	</header>
 	</header>
 	<!-- Fin navbar -->
-	
-	<section class="servicios">
-		<div class="box-servicios">
-		<img src="../assets/img/remolque.jpg">
-		</div>
-		<div class="box-servicios">
-		<h2>Remolcador</h2>
-		</div>
-	</section>
-	
-	<section class="servicios">
-		<div class="box-servicios">
-		<img src="../assets/img/ferry.jfif">
-		</div>
-		<div class="box-servicios">
-		<h2>Ferry</h2>
-		</div>
-	</section>
-	<section class="servicios">
-		<div class="box-servicios">
-		<img src="../assets/img/_94795002_ship.png">
-		</div>
-		<div class="box-servicios">
-		<h2>Carguero</h2>
-		</div>
-	</section>
-	
+ <div class="container">
+    <h1 class="mt-5">Inicio de sesión / Crear cuenta</h1>
+    <div class="row mt-4">
+      <div class="col-md-6">
+        <h3>Iniciar sesión</h3>
+        <form>
+          <div class="form-group">
+            <label for="loginEmail">Email</label>
+            <input type="email" class="form-control" id="loginEmail" placeholder="Ingrese su email">
+          </div>
+          <div class="form-group">
+            <label for="loginPassword">Contraseña</label>
+            <input type="password" class="form-control" id="loginPassword" placeholder="Ingrese su contraseña">
+          </div>
+          <button type="submit" class="btn btn-primary">Iniciar sesión</button>
+        </form>
+      </div>
+      <div class="col-md-6">
+        <h3>Crear cuenta</h3>
+        <form>
+          <div class="form-group">
+            <label for="signupName">Nombre</label>
+            <input type="text" class="form-control" id="signupName" placeholder="Ingrese su nombre">
+          </div>
+          <div class="form-group">
+            <label for="signupEmail">Email</label>
+            <input type="email" class="form-control" id="signupEmail" placeholder="Ingrese su email">
+          </div>
+          <div class="form-group">
+            <label for="signupPassword">Contraseña</label>
+            <input type="password" class="form-control" id="signupPassword" placeholder="Ingrese una contraseña">
+          </div>
+          <button type="submit" class="btn btn-primary">Crear cuenta</button>
+        </form>
+      </div>
+    </div>
+  </div>
+
+  <!-- Enlace a los archivos JavaScript de Bootstrap (jQuery y Popper.js) -->
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 <footer class="footers text-center text-lg-start">
   <!-- Grid container -->
   <div class="container p-4">
@@ -116,7 +130,10 @@
 
 </footer>
 	<!-- fin del footer -->
-<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+ <!-- Enlace a los archivos JavaScript de Bootstrap (jQuery y Popper.js) -->
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 </body>
 
 </html>
