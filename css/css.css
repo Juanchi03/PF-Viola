@@ -39,6 +39,29 @@
   color: black; }
 
 /*css del navbar*/
+.navbar {
+  background-color: #333;
+  height: auto; }
+  .navbar img {
+    height: 150px;
+    width: auto;
+    float: left; }
+  .navbar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0; }
+    .navbar ul li {
+      float: left; }
+      .navbar ul li a {
+        display: block;
+        color: white;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+        transition: background-color 0.5s ease; }
+        .navbar ul li a:hover {
+          background-color: lightblue; }
+
 .navbar-nav .nav-link {
   color: antiquewhite;
   font-weight: bold; }
