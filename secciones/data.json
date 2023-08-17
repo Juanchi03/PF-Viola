@@ -1,0 +1,16 @@
+{
+  "usuarios": [
+    {
+      "id": 1,
+      "nombre": "Usuario 1",
+      "email": "juanchiviola@gmail.com",
+      "password": "2003"
+    },
+    {
+      "id": 2,
+      "nombre": "Usuario 2",
+      "email": "info@royalmarina.org",
+      "password": "7"
+    }
+  ]
+}
